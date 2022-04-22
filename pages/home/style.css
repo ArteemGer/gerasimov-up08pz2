@@ -157,3 +157,6 @@ a:hover{
     font-weight: 400;
     margin-bottom: 5px;
 }
+.logo{
+    display: flex;
+}
