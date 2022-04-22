@@ -13,6 +13,9 @@ a{
     text-decoration: none;
     color: black
 }
+a:hover{
+    text-decoration: underline;
+}
 .first__header{
     display: flex;
     align-items: center;
