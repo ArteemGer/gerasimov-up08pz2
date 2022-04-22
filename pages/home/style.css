@@ -39,7 +39,7 @@ a{
     border: none;
 }
 .registration__header{
-    margin-left: 360px;
+    margin-left: 380px;
 }
 .search{
     margin-top: 24px;
@@ -106,7 +106,6 @@ a{
     flex-wrap: wrap;
     max-width: 78%;
 }
-
 .services{
     margin-left:30px;
     margin-top: 4px;
