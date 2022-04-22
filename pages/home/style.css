@@ -66,3 +66,39 @@ a{
     color: white;
     font-size: 16px;
 }
+.card{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    max-width: 264px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.text{
+    margin: 0px;
+    font-weight: bold;
+    color: rgba(37, 110, 235, 1);
+}
+.price{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.when{
+    color: rgb(196, 196, 196);
+    margin: 0px;
+}
+.where{
+    color: rgb(196, 196, 196);
+    margin: 0px;
+}
+.name{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards__main{
+    display: flex;
+    flex-wrap: wrap;
+}
