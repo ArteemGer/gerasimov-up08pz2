@@ -16,6 +16,12 @@ a{
     display: flex;
     align-items: center;
 }
+.title__header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-left: 6px;
+}
 .menu__header{
     display: flex;
     padding-left: 20px;
@@ -23,11 +29,8 @@ a{
 .item__header{
     margin-right: 14px;
 }
-.item__header:hover{
-    text-decoration: solid;
-}
 .button__header{
-    width: 161px;
+    width: 171px;
     height: 36px;
     margin-left: 25px;
     background-color: rgba(37, 110, 235, 1);
@@ -36,7 +39,7 @@ a{
     border: none;
 }
 .registration__header{
-    margin-left: 390px;
+    margin-left: 360px;
 }
 .search{
     margin-top: 24px;
@@ -101,4 +104,28 @@ a{
 .cards__main{
     display: flex;
     flex-wrap: wrap;
+    max-width: 78%;
+}
+
+.services{
+    margin-left:30px;
+    margin-top: 4px;
+}
+.services h2{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.services__section img{
+    margin-bottom: 7px;
+}
+.services__section{
+    margin-bottom: 25px;
+    max-width: 231px;
+}
+.services__name{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.all__main{
+    display: flex;
 }
