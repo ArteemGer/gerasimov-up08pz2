@@ -79,3 +79,72 @@ a:hover{
     color: white;
     font-size: 16px;
 }
+.main{
+    display: flex;
+}
+.name__main{
+    margin-top: 35px;
+    font-size: 24px;
+}
+.main img{
+    margin-top: 10px;
+}
+.about__main{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.first__main{
+    margin-right: 30px;
+}
+.name__sidebar{
+    margin-top: 35px;
+    font-size: 24px;
+}
+.saller__sidebar{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.stars__sidebar{
+    margin-top: 0px;
+}
+.review__sidebar{
+    display: flex;
+    align-items:center;
+}
+.review__sidebar p{
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.image__sidebar{
+    margin-left: 75px;
+    margin-top: 0px;
+}
+.face__sidebar{
+    font-size: 12px;
+    margin-top: 0px;
+}
+.button__sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.telephone__sidebar{
+    background-color: rgba(37, 110, 235, 1);
+    color: white;
+    border: 0px ;
+    height: 54px;
+    width: 264px;
+    border-radius: 10px;
+}
+.message__sidebar{
+    margin-top: 14px;
+    background-color: rgba(20, 180, 190, 1);
+    color: white;
+    border: 0px ;
+    height: 54px;
+    width: 264px;
+    border-radius: 10px;
+}
