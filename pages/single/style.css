@@ -97,6 +97,9 @@ a:hover{
 .first__main{
     margin-right: 30px;
 }
+.first__main img{
+    cursor: pointer;
+}
 .name__sidebar{
     margin-top: 35px;
     font-size: 24px;
@@ -123,6 +126,9 @@ a:hover{
     margin-left: 75px;
     margin-top: 0px;
 }
+.images__main img{
+    cursor: pointer;
+}
 .face__sidebar{
     font-size: 12px;
     margin-top: 0px;
@@ -132,6 +138,7 @@ a:hover{
     flex-direction: column;
 }
 .telephone__sidebar{
+    cursor: pointer;
     background-color: rgba(37, 110, 235, 1);
     color: white;
     border: 0px ;
@@ -140,6 +147,7 @@ a:hover{
     border-radius: 10px;
 }
 .message__sidebar{
+    cursor: pointer;
     margin-top: 14px;
     background-color: rgba(20, 180, 190, 1);
     color: white;
