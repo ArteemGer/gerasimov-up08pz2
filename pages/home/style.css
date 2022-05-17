@@ -32,21 +32,24 @@ a:hover{
 }
 .item__header{
     margin-right: 14px;
+    font-size: 14px;
 }
 .button__header{
-    width: 171px;
+    font-size: 14px;
+    width: 161px;
     height: 36px;
-    margin-left: 25px;
+    margin-left: 30px;
     background-color: rgba(37, 110, 235, 1);
     color:white;
     border-radius: 7px;
     border: none;
 }
 .registration__header{
-    margin-left: 380px;
+    font-size: 14px;
+    margin-left: 437px;
 }
 .search{
-    margin-top: 24px;
+    margin-top: 18px;
 }
 .search__main{
     border-radius: 5px;
@@ -73,8 +76,18 @@ a:hover{
     color: white;
     font-size: 16px;
 }
+.start__main{
+    display: flex;
+    align-items: center;
+}
+.services__main{
+    margin-left: 620px;
+    font-size: 18px;
+}
+.main{
+    margin-top: 20px;
+}
 .card{
-    margin-right: 30px;
     max-width: 264px;
 }
 .card:hover{
@@ -91,10 +104,12 @@ a:hover{
     margin-bottom: 10px;
 }
 .when{
+    font-size: 14px;
     color: rgb(196, 196, 196);
     margin: 0px;
 }
 .where{
+    font-size: 14px;
     color: rgb(196, 196, 196);
     margin: 0px;
 }
@@ -105,12 +120,20 @@ a:hover{
     justify-content: space-between;
 }
 .cards__main{
+    max-height: 610px;
+    max-width: 880px;
     display: flex;
     flex-wrap: wrap;
 }
+.cards__main a{
+    margin-bottom: 21px;
+    max-height: 300px;
+    max-width: 274px;
+    margin-right: 26px;
+}
 .services{
     max-width: 230px;
-    margin-left: 25px;
+    margin-left: 0px;
     margin-top: 4px;
 }
 .services h2{
@@ -122,9 +145,15 @@ a:hover{
 }
 .services__section{
     margin-bottom: 25px;
-    max-width: 231px;
+    max-width: 211px;
+}
+.services__section p{
+    font-size: 14px;
+    margin-top: 0px;
 }
 .services__name{
+    font-size: 14px;
+    margin-top: 0px;
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -132,7 +161,7 @@ a:hover{
     display: flex;
 }
 .footer{
-    margin-top:37px;
+    margin-top:25px;
  
 }
 .footer__grey-line{
@@ -143,6 +172,7 @@ a:hover{
 .footer__grey-text{
     font-size: 14px;
     margin-top: 18px;
+    margin-bottom: 0px;
     color: rgba(229, 229, 229, 1);
 }
 .a-grey{
@@ -151,8 +181,13 @@ a:hover{
  
 .little-text_first{
     margin-top: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
 .little-text{
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 5px;
